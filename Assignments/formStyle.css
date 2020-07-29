@@ -1,0 +1,119 @@
+body{
+    align-items: center;
+    margin: 0px;
+}
+
+form{
+
+    border:groove;
+    padding-left: 75px;
+    display: inline-block;
+    top: 0;
+    float: unset;
+    width: 810px;
+    margin: 0px 20%;
+}
+
+h1{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+img{
+    height: 50px;
+    margin: 0;
+    margin-top: 30px;
+    display: inline-block;
+    /* float: left; */
+
+}
+
+input{
+    margin:5px;
+}
+
+input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+}
+
+input[type="date"]{
+    height:50px;
+    width:200px;
+}
+
+input[type = "text"]{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+label{
+    margin:5px;
+}
+
+#enroll_enquire{
+    display: inline-block;
+    left:0;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#head{
+    height: 50px;
+    display: inline-block;
+    top: 0;
+    float: unset;
+    margin: 0px 5%;
+}
+
+#passportPhoto{
+    height:100px;
+    width: 90px;
+    border: groove;
+}
+
+.bottom-left{
+    float: right;
+    margin-right: 10px;
+    height:50px;
+    width:150px;
+    border: groove;
+}
+
+.c21{
+    display: inline-block;
+}
+
+.c22{
+    display: inline-block;
+    float: right;
+    margin-right:20px ;
+}
+
+.line{
+    width : 500px;
+}
+
+.left{
+    margin: 20px;
+    left :100px;
+}
+
+.long{
+    width:600px;
+}
+
+.three-block{
+    display: inline-block;
+}
+
+.top-corner-check{
+    margin:0;
+}
+
+.right-label{
+    width: 200px
+}

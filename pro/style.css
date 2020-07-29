@@ -1,0 +1,28 @@
+#logo{
+  height: 75px;
+}
+
+.btn-outline-success1{
+  color: #f37f48;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 5%;
+  border-color: #f37f48;
+  background-color: #3C3D3F;
+  border: 1px solid;
+  text-decoration-color: #f37f48;
+  outline-color: #f37f48;
+}
+
+.h:hover{
+  color: #f37f48;
+}
+
+.pos{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.m{
+  margin:0;
+}

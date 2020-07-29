@@ -1,0 +1,31 @@
+/* div > ul ul{
+    display:none;
+}
+div > ul > li:hover > ul,
+div > ul > li > ul > li:hover > ul {
+  display: block;
+} */
+
+ul {
+    list-style: none;
+  }
+  
+  ul > li ul {
+    color: white;
+    display: none;
+  }
+  
+  ul li:hover ul {
+    display: block;
+    background-color: red;
+  }
+  
+  ul ul li {
+    background-color: pink;
+    color: white;
+  }
+  
+  ul ul li:hover ul li {
+    display: block;
+    background-color: purple;
+  }
