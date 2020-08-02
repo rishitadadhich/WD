@@ -9,7 +9,6 @@ form{
     padding-left: 75px;
     display: inline-block;
     top: 0;
-    float: unset;
     width: 810px;
     margin: 0px 20%;
 }
@@ -25,8 +24,6 @@ img{
     margin: 0;
     margin-top: 30px;
     display: inline-block;
-    /* float: left; */
-
 }
 
 input{
@@ -65,7 +62,6 @@ label{
     height: 50px;
     display: inline-block;
     top: 0;
-    float: unset;
     margin: 0px 5%;
 }
 

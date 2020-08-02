@@ -1,0 +1,35 @@
+body{
+    perspective: 800px;
+}
+.side-a,
+.side-b{
+    position: absolute; 
+    backface-visibility: hidden;
+    /* we have chosen absolute because it is set wrt the parent */
+}
+.cards{
+    height: 200px;
+    width: 200px;
+}
+.side-a{
+    background-color: thistle;
+    z-index: 500;
+    background-image: url("./g2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.side-b{
+    background-color: #adcded;
+    transform: rotateY(180deg);
+}
+.wrap{
+    transition: all, 2s;
+    transform-style: preserve-3d;
+}
+.wrap:hover{
+    transform: rotateY(180deg);
+}
+
+
+/* #eeadef */

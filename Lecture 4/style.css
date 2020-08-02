@@ -1,0 +1,35 @@
+.container{
+    background: linear-gradient(to right, #232312 ,#ee4432);
+    color: white;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
+}
+div{
+    background-color: #efeafa;
+    margin:10px;
+
+    height: 100px;
+    width: 100px;
+}
+.one{
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+
+}
+
+.one:hover{
+    
+    /* background-color: #ef2212; */
+    margin:10px;
+    background: linear-gradient(to right, #12321a, #2324ee);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* transition-delay: 5s; */
+    
+    /*  */
+}
