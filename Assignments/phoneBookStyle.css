@@ -36,10 +36,7 @@ h2{
     background-color: wheat;
     margin: 0;
 }
-.A{
-    position: static;
-    top: 100px;
-}
+.A,
 .B{
     position: sticky;
     top: 100px;

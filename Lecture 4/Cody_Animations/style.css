@@ -1,0 +1,44 @@
+body{
+    background-color: #5094e2;
+    background-image: url("./Space.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-attachment:scroll;
+}
+#cody{
+    height: 200px;
+    margin-top: 300px;
+    
+}
+#Rocket{
+    height: 100px;
+    transform: rotate(45deg);
+    animation: upDown;
+    animation-duration: 10s;
+
+}
+
+@keyframes upDown{
+    0%{
+       top: 250px;  
+    }
+    10%,20%{
+        top: 350px;  
+    }
+    30%,40%{
+        top: 250px;  
+    }
+    50%,60%{
+         top: 350px;  
+     }
+    70%,80%{
+        top: 250px;  
+     }
+    85%,90%{
+         top: 350px;  
+     }
+    100%{
+        top:300px;
+    }
+}
